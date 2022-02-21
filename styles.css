@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 1px;
+}
+
+.wrapper {
+    padding: 0.5em;
+}
+
+.box {
+    padding: 1em;
+    border: 2px solid black;
+    height: 55px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.inner-box {
+    height: 100%;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+@media screen and (min-width: 800px) {
+    .green {
+        display: block;
+    }
+}
